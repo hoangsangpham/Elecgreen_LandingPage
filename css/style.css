@@ -1,0 +1,778 @@
+@font-face{
+    font-family: bevietnampro-r;
+    src: url(/Fonts/BeVietnamPro-Regular.ttf);
+}
+@font-face{
+    font-family: bevietnampro-m;
+    src: url(/Fonts/BeVietnamPro-Medium.ttf);
+}
+@font-face{
+    font-family: bevietnampro-s;
+    src: url(/Fonts/BeVietnamPro-SemiBold.ttf);
+}
+@font-face{
+    font-family: bevietnampro-b;
+    src: url(/Fonts/BeVietnamPro-Bold.ttf);
+}
+body{
+    font-family: bevietnampro-r;
+}
+/* Header-top */
+.bg-1{
+    background-color: #080808;
+}
+.nav-top{
+    text-transform: capitalize;
+    padding: 0;
+}
+.nav-top ul li{
+    margin: 0 50px 0 0;
+}
+.nav-top a{
+    display: block;
+}
+.nav-top ul li i{
+    color: #fff;
+    font-size: 12px;
+}
+.header-top-contact{
+    justify-content: flex-end;
+    padding: 0;
+}
+.header-top-contact p{
+    color: aliceblue;
+    line-height: 40px;
+    font-size: 14px;
+    font-style: normal;
+    margin: 0px 0px 0px 50px;
+
+}
+.header-top-contact i{
+    color: #56B533;
+    line-height: 40px;
+    font-size: 14px;
+    margin: 0 10px;
+}
+.nav-top{
+    line-height: 40px;
+}
+.nav-top ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.header-top-relative{
+    position: relative;
+    font-weight: bold;
+}
+.header-top-ab{
+    position: absolute;
+    top: 13px;
+    padding: 0 5px;
+}
+/* LOGO */
+.header{
+    background-color: #fff;
+    height: 115px;
+    border-bottom: 1px solid #f3f3f3;
+}
+.header-icon ul{
+    justify-content: flex-end;
+}
+.header-icon ul li i{
+    padding-left:40px;
+    line-height: 115px;
+    font-size: 25px;
+    color: #000000;
+}
+.header-logo{
+    padding: 35px 0;
+}
+.header-serch-products input{
+    width: 100%;
+    margin: 35px 0;
+    border: 1px solid #666666;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 50px;
+    text-transform: capitalize;
+    outline: none;
+    padding: 0 20px;
+    
+}
+.header-serch-products button{
+    width: 94px;
+    height: 38px;
+    border-radius: 19px;
+    background-color: #56B533;
+    text-transform: capitalize;
+    color: #fff;
+}
+select{
+    justify-content: center;
+    color: #666666;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.header-serch-right {
+    border: 1px solid #666666;
+    padding: 13px 20px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-right: none;
+    
+}
+.header-serch{
+    align-items: center;
+}
+/* nav link */
+.nav-link{
+    height: 65px;
+}
+.nav-link-drop{
+    justify-content: space-between;
+}
+.nav-link-drop{
+    background-color: #56B533;
+    line-height: 65px;
+}
+.nav-link-drop h3{
+    color: #fff;
+    font-size: 26px;
+    text-transform: capitalize;
+    line-height: 65px;
+}
+.nav-link-drop a{
+    line-height: 65px;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.nav-link-menu ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-family: bevietnampro-r;
+    color: #080808;
+    line-height: 65px;
+    text-transform: capitalize;
+    padding: 0 16px;
+}
+.nav-link-menu ul li a:hover{
+    background-color: #cada9e;
+    color: #fff;
+}
+.nav-link-dis a{
+    font-size: 16px;
+    font-family: bevietnampro-r;
+    color: #080808;
+    text-transform: capitalize;
+    line-height: 65px;
+    text-decoration: none;
+    float: right;
+}
+.nav-link-dis a:hover{
+    color: #56B533;
+}
+/* slider */
+.carousel-caption{
+    top: 170px;
+    text-align: left;
+    text-transform: uppercase; 
+    text-shadow: none;
+}
+.carousel-caption p{
+    color: #56B533;
+    font-size: 22px;
+    font-family: bevietnampro-b;
+}
+.carousel-caption h1{
+    color: #080808;
+    font-size: 55px;
+    font-style: normal;
+}
+#myCarousel ol li{
+    background-color: #56B533;
+} 
+#myCarousel a span{
+    color: #56B533;
+} 
+/* service */
+.service-content h5{
+    font-family: bevietnampro-b;
+    font-size: 18px;
+    color: #282828;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.service-content p{
+    font-family: bevietnampro-r;
+    font-size: 16px;
+    color: #666666;
+    margin-top: 15px;
+}
+.service-content{
+    margin-left: 8px;
+}
+.service-img{
+    padding: 0 20px;
+}
+.service-flex{
+    display: flex;
+}
+/* subbanner */
+.sub-banner{
+    position: relative;
+    margin-bottom: 20px;
+}
+/* sub1 */
+.sub-banner .content-sub{
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    left: 60px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.sub-banner-button button{
+    color: #fff;
+    font-family: bevietnampro-r;
+    font-size: 14px;
+    background-color: #56B533;
+    border: none;
+    border-radius: 19px;
+    padding: 10px 16px;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+.content-sub h5{
+    text-transform: uppercase;
+    font-family: bevietnampro-r;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #282828;
+    margin-bottom: 20px;
+}
+.content-sub span{
+    font-family: bevietnampro-b;
+    font-size: 26px;
+    color: #080808;
+    font-weight: 700;
+    font-style: normal;
+}
+.sub-banner-button button:hover{
+    background-color: #080808;
+    color: #56B533;
+}
+/* sub2 */
+.sub-banner {
+    text-align: center;
+}
+.sub-banner .content-sub-2{
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    left: 60px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.sub-banner-button-2 button{
+    color: #56B533;
+    font-family: bevietnampro-r;
+    font-size: 14px;
+    background-color: #080808;
+    border: none;
+    border-radius: 19px;
+    padding: 10px 16px;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+.content-sub-2 h5{
+    text-transform: uppercase;
+    font-family: bevietnampro-r;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.content-sub-2 span{
+    font-family: bevietnampro-b;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+}
+.sub-banner-button-2 button:hover{
+    background-color: #56B533;
+    color: #fff;
+}
+/* Deal of the Day */
+.deal-h2{
+    height: 50px;
+    margin: 44px 0;
+}
+.deal{
+    border: 1px solid #f3f3f3;
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.deal-h2 h2{
+    font-family: bevietnampro-b;
+    font-size: 32px;
+    color: #080808;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+.deal-img {
+    padding: 60px 10px;
+}
+.deal-content {
+    padding: 35px 0 0 0;
+    line-height: 50px;
+}
+.deal-content span{
+    font-size: 14px;
+    font-family: bevietnampro-r;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #666;
+    font-style: normal;
+}
+.deal-content h4{
+    font-family: bevietnampro-b;
+    font-weight: 700;
+    font-size: 22px;
+    color: #282828;
+    text-transform: capitalize;
+}
+.deal-content ul li i{
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 10px 0 0px;
+}
+.deal-content h5{
+    font-weight: 700;
+    font-size: 22px;
+    color: #56B533;
+    font-family: bevietnampro-b;
+    font-style: normal;
+}
+#progressbar {
+    background-color: #f3f3f3;
+    border-radius: 13px;
+    padding: 3px;
+    margin-top: 20px;
+}
+  
+#progressbar>div {
+    background-color: #56B533;
+    width: 50%;
+    height: 20px;
+    border-radius: 10px;
+  }
+/* Marquee */
+marquee{
+    width: 100%;
+    direction:left;
+    height: 70px;
+    background-color: #56B533;
+    margin-bottom: -5px;
+    margin-top: 70px;
+    line-height: 70px;
+} 
+marquee p{
+    font-family: bevietnampro-b;
+    font-size: 18px;
+    color: #fff;
+}
+/* produc-add */
+.add-product-bg{
+    background-color: #f3f3f3;
+}
+.add-product-img{
+    text-align: center;
+    position: relative;
+}
+.add-product-img .add-product-img-content{
+    position: absolute;
+    z-index: 1;
+    bottom: 25px;
+    left: 100px;
+    text-transform: capitalize;
+}
+.add-product-img button{
+    width: 42px;
+    height: 42px;
+    background-color: #56B533;
+    color: #FFF;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 5px;
+    margin-right: 10px;
+    
+}
+.add-product-img button h5{
+    font-size: 18px;
+    font-family: bevietnampro-b;
+    color: #fff;
+}
+.add-product-img button p{
+    font-size: 11px;
+    font-family: bevietnampro-r;
+}
+.add-product-content {
+    line-height: 50px;
+}
+.add-product-content span{
+    font-size: 14px;
+    font-family: bevietnampro-r;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #666;
+    font-style: normal;
+}
+.add-product-content h4{
+    font-family: bevietnampro-b;
+    font-weight: 700;
+    font-size: 22px;
+    color: #282828;
+    text-transform: capitalize;
+}
+.add-product-content ul li i{
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 10px 0 0px;
+}
+.add-product-content h5{
+    font-weight: 700;
+    font-size: 22px;
+    color: #56B533;
+    font-family: bevietnampro-b;
+    font-style: normal;
+}
+.add-to-cart button{
+    color: #fff;
+    font-family: bevietnampro-r;
+    font-size: 14px;
+    background-color: #080808;
+    border: none;
+    border-radius: 50px;
+    padding: 0 16px;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.add-to-cart button:hover{
+    background-color: #56B533 ;
+    color: #fff;
+}
+.add-to-cart{
+    text-align: center;
+}
+.add-pro{
+    display: flex;
+}
+.product-bg{
+    background-color: #fff;
+}
+.product-content .price-product span{
+    font-size: 22px;
+    color: #666;
+    font-family: bevietnampro-r;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration-line: line-through;
+}
+.product-content .price-product p{
+    color: #56B533;
+    font-size: 22px;
+    font-family: bevietnampro-b;
+    font-style: normal;
+    float: right;
+    margin-right: 30px;
+}
+/* product */
+.product-img{
+    text-align: center;
+}
+.product-content p{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #666;
+    font-style: normal;
+    font-weight: 400;
+    font-family: bevietnampro-r;
+}
+.product-content h6{
+    font-family: bevietnampro-b;
+    font-size: 16px;
+    font-weight: 700;
+    color: #282828;
+    font-style: normal;
+}
+.product-content ul li i{
+    color: #FBA82B;
+}
+.product-content .price span{
+    font-size: 22px;
+    color: #666;
+    font-family: bevietnampro-r;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration-line: line-through;
+}
+.product-content .price p{
+    color: #56B533;
+    font-size: 22px;
+    font-family: bevietnampro-b;
+    font-style: normal;
+    float: right;
+    margin-right: 60px;
+}
+.product-content{
+    line-height: 50px;
+    margin-left: 15px;
+}
+.product-content ul li{
+    margin-right: 8px;
+}
+/* product-shop now */
+.product-shopnow{
+    position: relative;
+}
+.product-shopnow img{
+    width: 100%;
+}
+.product-shopnow .product-shopnow-content{
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 20px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.product-shopnow-button button{
+    color: #fff;
+    font-family: bevietnampro-r;
+    font-size: 14px;
+    background-color: #080808;
+    border: none;
+    border-radius: 19px;
+    padding: 10px 16px;
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+.product-shopnow h5{
+    text-transform: uppercase;
+    font-family: bevietnampro-r;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: #56B533;
+    margin-bottom: 10px;
+}
+.product-shopnow span{
+    font-family: bevietnampro-b;
+    font-size: 18px;
+    color: #080808;
+    font-weight: 700;
+    font-style: normal;
+}
+.product-shopnow-button button:hover{
+    background-color: #56B533 ;
+    color: #fff;
+}
+/* categories */
+.categories ul{
+    list-style: disc;
+}
+.categories-content {
+    padding-left: 28px;
+}
+.categories-content ul{
+    padding-left: 20px;
+    line-height: 35px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #666;
+    font-weight: 400;
+    font-style: normal;
+}
+.categories h6{
+    font-size: 16px;
+    font-family: bevietnampro-b;
+    font-weight: 700;
+    color: #282828;
+    font-style: normal;
+}
+.categories{
+    border: #f3f3f3 1px solid;
+    display: flex;
+}
+.categories-img img{
+    width: 100%;
+}
+/* Blog */
+.recent-blog-post{
+    margin-bottom: 45px;
+}
+.line{
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 1px;
+    margin: 25px 0 0 0;
+}
+.blog-post{
+    border: #f3f3f3 1px solid;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.blog-post-content h4{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: bevietnampro-b;
+    color: #282828;
+    font-style: normal;
+    line-height: 60px;
+}
+.blog-post-content p{
+    font-size: 16px;
+    color: #666;
+    font-weight: 400;
+    line-height: 30px;
+}
+.blog-post-content span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    line-height: 60px;
+}
+
+/* footer serch */
+.bg-2{
+    background-color: #56B533;
+    height: 120px;
+}
+.ft-serch-img{
+    padding: 15px 0;
+}
+.ft-serch-content{
+    padding: 34px 0;
+}
+.ft-serch-content h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: bevietnampro-b ;
+    font-style: normal;
+    color: #fff;
+    text-transform: capitalize;
+}
+.ft-serch-content p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: bevietnampro-r ;
+    font-style: normal;
+    color: #fff;
+}
+.ft-serch-email input{
+    width: 100%;
+    margin: 35px 0;
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    text-transform: capitalize;
+    outline: none;
+    padding: 0 40px;
+    
+}
+.ft-serch-email button{
+    width: 94px;
+    height: 38px;
+    border-radius: 19px;
+    background-color: #56B533;
+    text-transform: capitalize;
+    color: #fff;
+}
+.btn-relative{
+    position: relative;
+}
+.btn-ab{
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    right: 20px;
+    border: none;
+}
+/* footer */
+.footer-bg{
+    background-color: #282828;
+}
+.footer-title{
+    font-size: 22px;
+    color: #fff;
+    font-family: bevietnampro-b;
+    text-transform: capitalize;
+    margin: 60px 0px 60px 0;
+    padding: 0;
+}
+.contact-icon{
+    font-family:bevietnampro-r ;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    margin-right: 5px;
+    color: #FFF;
+    font-size: 15px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.contact-info span{
+    font-size: 16px;
+    font-family:bevietnampro-r ;
+    color: #FFF;
+    text-transform: capitalize;  
+    font-weight: 400;
+}
+.contact-info p{
+    color: #FFF;
+}
+.link ul li{
+    margin-bottom: 15px;
+}
+.link ul li a{
+    font-size: 16px;
+    font-family:bevietnampro-r ;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+.footer{
+    margin-bottom: 55px;
+}
+.download p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: bevietnampro-r ; 
+}
+.dowload-chap {
+    padding: 0;
+    margin: 0;
+    margin-top: 34px;
+}
+
